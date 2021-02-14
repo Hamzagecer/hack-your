@@ -1,0 +1,390 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2B02CC;
+}
+
+#container {
+    margin: auto;
+    width: 95%;
+}
+
+/* header */
+#header {
+    align-items: center;
+    display: flex;
+    height: 70px;
+    box-shadow: 0 0 1px 0 #DED3F5;
+
+}
+
+.header-left {
+    align-items: center;
+    display: flex;
+    width: 37%;
+    font-size: 30px;
+    color: white;
+}
+
+.header-left i {
+    padding-right: 20px;
+}
+
+.header-left i:hover {
+    color: #FCB818;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.logo img {
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.nice {
+    padding-left: 20px;
+    font-size: 24px;
+}
+
+.nice a:hover {
+    color: #FCB818;
+
+}
+
+.verynice {
+    padding-left: 20px;
+    font-size: 24px;
+}
+
+.verynice a:hover {
+    color: #FCB818;
+
+}
+
+.header-center {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 36%;
+}
+
+.header-center a:hover {
+    color: #FCB818;
+
+}
+
+.header-right {
+    display: flex;
+    justify-content: flex-end;
+    width: 37%;
+
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    border: 1px solid #666;
+    height: 70px;
+    width: 100px;
+    background-color: #FCB818;
+    color: #333;
+
+}
+
+.subscribe {
+    display: flex;
+    justify-content: center;
+    margin-top: 23px;
+    color: #333;
+}
+
+.button:hover {
+    background-color: green;
+    transition: color .4s;
+}
+
+/* main & section */
+
+.first-section {
+    text-align: left;
+    align-items: flex-start;
+    display: flex;
+}
+
+.left {
+    text-align: left;
+    width: 40%;
+
+}
+
+.left h1 {
+    padding: 60px 20px 70px 0px;
+    font-size: 55px;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.right {
+    width: 60%;
+}
+
+.right p {
+    padding: 70px 70px 82px 110px;
+    font-size: 26px;
+    color: #b499ff;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.image img {
+    width: 100%;
+    height: 700px;
+    box-shadow: 0 0 1px 0 #DED3F5;
+    object-fit: cover;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+.image p {
+    padding-top: 7px;
+    font-size: 10px;
+    color: #9B7AF7;
+    box-shadow: 0 0 1px 0 #DED3F5;
+    word-spacing: 4px;
+}
+
+/* section -  2 */
+
+.second-section {
+    padding-top: 60px;
+    display: flex;
+    align-items: flex-start;
+
+}
+
+.left-1 {
+    color: #b499ff;
+    padding-right: 20px;
+
+}
+
+.hg {
+    color: #fff;
+}
+
+.right-1 {
+    padding-left: 20px;
+    color: #b499ff;
+}
+
+.left-1-bottom p {
+    display: flex;
+    font-size: 10px;
+    color: wheat;
+    word-spacing: 3px;
+    text-transform: uppercase;
+    padding-top: 80px;
+
+}
+
+/* section - 3  */
+
+.third-section {
+    display: flex;
+    padding-top: 10px;
+    height: 55px;
+    width: 100%;
+}
+
+.left-2 {
+    display: flex;
+    width: 50%;
+
+}
+
+.left-2 input {
+    background-color: transparent;
+    border: 2px solid transparent;
+    padding-left: 10px;
+    font-size: 20px;
+    height: 55px;
+    width: 50%;
+    box-shadow: 0 0 1px 0 #DED3F5;
+    color: #fff;
+    outline: 0;
+}
+
+.left-button {
+    display: flex;
+    color: #fff;
+    border: 1px solid #666;
+    height: 55px;
+    width: 250px;
+    margin-left: 10px;
+
+
+}
+
+.text-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 85px;
+}
+
+.left-button:hover {
+    background-color: #eaeaea;
+    color: #333;
+}
+
+.left-button a {
+    text-align: center;
+    color: black;
+    background-color: transparent;
+    border: 2px solid transparent;
+}
+
+.right-2 {
+    display: flex;
+
+}
+
+.right-button {
+    display: flex;
+    color: #fff;
+    border: 1px solid #666;
+    height: 55px;
+    margin-right: 10px;
+    width: 310px;
+
+
+}
+
+.text-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 130px;
+}
+
+.right-button:hover {
+    background-color: #eaeaea;
+    color: #333;
+}
+
+.right-button a {
+    text-align: center;
+    color: black;
+    background-color: transparent;
+    border: 2px solid transparent;
+}
+
+/* footer */
+
+
+
+
+#footer {
+    display: flex;
+    margin-top: 100px;
+    box-shadow: 0 0 1px 0 #DED3F5;
+}
+
+.left-footer {
+    display: flex;
+    align-items: center;
+    width: 30%;
+
+}
+
+.logo-1 img {
+    border-radius: 5px;
+    width: 25px;
+    height: 25px;
+}
+
+.left-footer p {
+    padding-left: 10px;
+    font-size: 14px;
+    color: #b499ff;
+    word-spacing: 3px;
+}
+
+.nice-1 {
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.nice-1 a:hover {
+    color: rgb(51, 255, 0)
+}
+
+.verynice-1 {
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.verynice-1 a:hover {
+    color: rgb(51, 255, 0)
+}
+
+.center-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 40%;
+
+}
+
+.center-footer a:hover {
+    color: rgb(51, 255, 0);
+
+
+}
+
+.center-footer a {
+    font-size: 13px;
+    color: #DED3F5;
+}
+
+.right-footer {
+    padding-left: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 30%;
+
+}
+
+.right-footer ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+
+}
+
+.right-footer li {
+    padding-left: 30px;
+}
+
+.right-footer a:hover {
+    color: rgb(51, 255, 0);
+
+
+}
+
+
+
+
+/*I wrote my codes in visual studio code and transferred it here. Since I could not find the logo on the site on the internet, I uploaded the photo to the internet and reached the image extension like this.
+The logo may not be visible in the codepen application, if it can be opened in another program, the logo will appear. I didn't want to use another image than I wanted to do the same assignment.*/
